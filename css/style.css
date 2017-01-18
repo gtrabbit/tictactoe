@@ -1,0 +1,151 @@
+body{
+
+}
+#wholeThing{
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  font-family: Georgia;
+  
+  
+}
+#backsplash{
+  background-image: url('https://i1.wp.com/www.dailycupofyoga.com/wp-content/uploads/2011/11/tumblr_luo25sxgzi1qdyb9oo1_4002.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  position: fixed;
+  display: block;
+  overflow: hidden;
+  opacity: .3;
+  left: 0%;
+  top: 0%;
+  margin: 0 auto;
+  background-color: rgba(75, 170, 190, 1);
+  background-blend-mode: hard-light;
+  
+}
+#choosingMark{
+  display: block;
+}
+#congrats{
+  display: none;
+  font-size: 220%;
+   
+}
+#congrats button{
+  font-size: 60%;
+  min-width: 45%;
+  position: relative;
+  top: 50%;
+}
+span{
+  font-family: "Helvetica";
+}
+h3{
+  font-family: "Courier"
+}
+button{
+  font-family: Helvetica;
+  padding: 2%;
+  background-color: rgba(50,45,35,.7);
+  color: white;
+  border: none;
+  font-size: 200%;
+  border-radius: 0%;
+  bottom: 20%;
+  position: relative;
+  margin-top: 5%;
+  
+}
+button:hover{
+  transform: rotate(3deg);
+}
+
+.transBlock{
+  position: absolute;
+  left: 7%;
+  width: 80%;
+  height: 80%;
+  margin: 5px auto;
+  padding: 2%;
+  float: left;
+  text-align: center;
+  
+}
+#settings{
+  font-size: 90%;
+  width: 105%;
+  margin-left: -10%;
+}
+
+#gameBoard{
+  height: 100%;
+  width: 100%;
+  float: left;
+  display: none;
+  transition: opacity 1s ease;
+  
+  
+  
+}
+.square{
+  float: left;
+  min-width: 28%;
+  margin: 1%;
+  min-height: 28%;
+  border: solid black 2px;
+  padding: 1%;
+  font-size: 500%;
+  text-align: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: all 0.4s ease;
+  background-color: white;
+ 
+}
+
+.square:hover{
+  border: solid rgba(75, 170, 190, 1) 2px;
+}
+@media only screen and (min-width : 421px){
+  #wholeThing{
+    width: 400px;
+    height: 400px;
+  }
+    #settings{
+    font-size: 150%;
+  }
+    #choosingDifficulty{
+  font-size: 90%;
+}
+  #congrats{
+    font-size: 250%;
+  }
+}
+
+
+@media only screen and (min-width : 621px){
+  #wholeThing{
+    width: 600px;
+    height: 600px;
+  }
+
+}
+@media only screen and (min-width : 821px){
+  #wholeThing{
+    width: 750px;
+    height: 730px;
+  }
+  #settings{
+    font-size: 200%;
+  }
+  #congrats{
+    font-size: 350%;
+  }
+}
